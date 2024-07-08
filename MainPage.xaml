@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="DateTimeExample.MainPage">
+
+    <ScrollView>
+        <VerticalStackLayout
+            Padding="30,0"
+            Spacing="25">
+            <Label
+                x:Name="Label_DateTimeMin"
+                Text="{Binding DateTimeMin}"
+                Style="{StaticResource Headline}" />
+
+            <Label
+                x:Name="Label_DateTimeMinUTC"
+                Text="{Binding DateTimeMinUTC}"
+                Style="{StaticResource SubHeadline}" />
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>
